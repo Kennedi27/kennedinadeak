@@ -392,11 +392,11 @@ a {
 #contact_content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: var(--p-5);
 }
 #contact_content .detail_contact {
-    width: 40%;
+    width: 35%;
     height: auto;
 }
 .detail_contact .phone_contact {
@@ -416,7 +416,7 @@ a {
 }
 
 #contact_content .form_contact{
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 .form_contact input {
