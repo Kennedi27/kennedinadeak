@@ -771,8 +771,6 @@ a {
         content: '' !important;
     }
     .slide__icon {
-        color: #4e73df;
-        font-size: 24pt;
         display: none;
     }
     .swiper-button-next {
