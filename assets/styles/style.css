@@ -621,12 +621,13 @@ a {
     .slide__icon {
         color: #4e73df;
         font-size: 24pt;
+        display: block;
     }
     .swiper-button-next {
-        right: -.55em !important;
+        right: -.50em !important;
     }
     .swiper-button-prev {
-        left: -.55em !important;
+        left: -.50em !important;
     }
     #contactme {
         margin-bottom: 20px;
@@ -772,6 +773,7 @@ a {
     .slide__icon {
         color: #4e73df;
         font-size: 24pt;
+        display: none;
     }
     .swiper-button-next {
         right: -.55em !important;
