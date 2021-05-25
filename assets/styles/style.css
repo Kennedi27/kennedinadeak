@@ -362,6 +362,7 @@ a {
     width: 35%;
     height: auto;
     border-radius: 15px;
+    background-color: #080705;
 }
 .swiper-wrapper .my__project img {
     width: 100%;
