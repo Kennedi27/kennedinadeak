@@ -312,7 +312,7 @@ a {
     padding-left: var(--p-3);
 }
 .skills_percentase .skills_php {
-    width: 90%;
+    width: 80%;
     height: .25em;
     border-radius: 0.10em;
     background-color: #4e73df;
@@ -325,6 +325,12 @@ a {
 }
 .skills_percentase .skills_java {
     width: 40%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: #4e73df;
+}
+.skills_percentase .skills_react {
+    width: 60%;
     height: .25em;
     border-radius: 0.10em;
     background-color: #4e73df;
@@ -342,7 +348,7 @@ a {
     background-color: #4e73df;
 }
 .skills_percentase .skills_html {
-    width: 80%;
+    width: 90%;
     height: .25em;
     border-radius: 0.10em;
     background-color: #4e73df;
