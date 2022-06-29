@@ -246,6 +246,9 @@ a {
     width: 50%;
     min-height: 200px;
 }
+#about-content .desk-about p:first-child {
+    text-align: justify;
+}
 #about #exp{
     display: flex;
     flex-direction: row;
