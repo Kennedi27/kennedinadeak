@@ -5,7 +5,8 @@
     --second-color: #080705;
     --first-font-color: #000000;
     --second-font-color: #FFFFFF;
-    
+    --bg-white: #FFF;
+
     --p-5: 5em;
     --p-6: 6em;
     --p-10: 10em;
@@ -40,6 +41,9 @@ a {
 }
 .slide__icon {
     display: none;
+}
+.swiper-pagination-bullet {
+    background-color: var(--bg-white) !important;
 }
 #container {
     width: 100%;
@@ -680,6 +684,7 @@ a {
     .swiper-button-prev {
         left: -.50em !important;
     }
+
     #contactme {
         margin-bottom: 20px;
     }
