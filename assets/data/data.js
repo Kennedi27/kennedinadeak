@@ -51,7 +51,7 @@ const data = [
         "id": 7,
         "title": "Pysical Inventory (PI)",
         "thumbnail": "./assets/project/PICount.png",
-        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to inventory in PT. Scheider Electric Batam",
+        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to inventory in PT. Schneider Electric Manufacturing Batam",
         "button": "Internal Project",
         "link_project": "#portofolio"
     },
@@ -59,7 +59,7 @@ const data = [
         "id": 8,
         "title": "SEMB Waterspider",
         "thumbnail": "./assets/project/SEMBWS.png",
-        "content": "is a web-based program designed using the programming languages C#(ASP.Net Core), Javascript and Sql Server. This program used to tracking data kanban in PT. Scheider Electric Batam",
+        "content": "is a web-based program designed using the programming languages C#(ASP.Net Core), Javascript and Sql Server. This program used to tracking data kanban in PT. Schneider Electric Manufacturing Batam",
         "button": "Internal Project",
         "link_project": "#portofolio"
     },
@@ -67,7 +67,7 @@ const data = [
         "id": 9,
         "title": "RAC CTB",
         "thumbnail": "./assets/project/CTB_RAC.png",
-        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to manage data order planing material in PT. Scheider Electric Batam",
+        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to manage data order planing material in PT. Schneider Electric Manufacturing Batam",
         "button": "Internal Project",
         "link_project": "#portofolio"
     },
@@ -75,7 +75,7 @@ const data = [
         "id": 10,
         "title": "SEMB OWS",
         "thumbnail": "./assets/project/OWS.png",
-        "content": "is a web-based program designed using the programming languages C#(ASP.Net Core), Javascript and Sql Server. This program used to tracking material production in PT. Scheider Electric Batam",
+        "content": "is a web-based program designed using the programming languages C#(ASP.Net Core), Javascript and Sql Server. This program used to tracking material production in PT. Schneider Electric Manufacturing Batam",
         "button": "Internal Project",
         "link_project": "#portofolio"
     },
@@ -83,7 +83,47 @@ const data = [
         "id": 11,
         "title": "Debug Application",
         "thumbnail": "./assets/project/Debug19.png",
-        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to manage data debug material from production in PT. Scheider Electric Batam",
+        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to manage data debug material from production in PT. Schneider Electric Manufacturing Batam",
+        "button": "Internal Project",
+        "link_project": "#portofolio"
+    },
+    {
+        "id": 12,
+        "title": "Actual to Plan",
+        "thumbnail": "./assets/project/ATP.png",
+        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to manage and calculate material can produce in production and compare to demand in PT. Schneider Electric Manufacturing Batam",
+        "button": "Internal Project",
+        "link_project": "#portofolio"
+    },
+    {
+        "id": 13,
+        "title": "PCBA Attrition",
+        "thumbnail": "./assets/project/PCBA.png",
+        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to issue product/material especially on sector PCBA in PT. Schneider Electric Manufacturing Batam",
+        "button": "Internal Project",
+        "link_project": "#portofolio"
+    },
+    {
+        "id": 14,
+        "title": "RPB Replisment",
+        "thumbnail": "./assets/project/RPB.png",
+        "content": "is a web-based program designed using the programming languages PHP, Javascript and Mysql. This program used to manage data material company to control stock material from supplier in PT. Schneider Electric Manufacturing Batam",
+        "button": "Internal Project",
+        "link_project": "#portofolio"
+    },
+    {
+        "id": 15,
+        "title": "STL Subcontractor",
+        "thumbnail": "./assets/project/STL.png",
+        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to manage and tracking data material from company and supplier base in PT. Schneider Electric Manufacturing Thailand",
+        "button": "Internal Project",
+        "link_project": "#portofolio"
+    },
+    {
+        "id": 16,
+        "title": "FPY Center",
+        "thumbnail": "./assets/project/FPY.png",
+        "content": "is a web-based program designed using the programming languages PHP, Javascript and Sql Server. This program used to manage unit quality material in PT. Schneider Electric Manufacturing Batam",
         "button": "Internal Project",
         "link_project": "#portofolio"
     },

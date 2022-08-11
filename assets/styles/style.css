@@ -153,6 +153,23 @@ a {
     font-size: 12pt;
     float: right;
 }
+.experience-content {
+    margin-left: 40px;
+}
+.experience-content p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.experience-content ol {
+    margin-left: 20px;
+}
+.experience-content ol {
+    padding-bottom: 25px;
+}
+.experience-content ol li {
+    padding: 2px;
+    text-align: justify;
+}
 #left #med__sos {
     margin-bottom: 20px;
     display: flex;
@@ -162,7 +179,7 @@ a {
     color: var(--second-font-color);
     margin-right: 12px;
     font-size: 12pt;
-}
+}   
 #left #med__sos .small{
     font-size: 9pt;
     display: block;
@@ -393,6 +410,14 @@ a {
     padding-bottom: var(--p-3);
     font-size: 12pt;
 }
+#experience-content {
+    width: 100%;
+    padding-left: var(--p-5);
+    padding-right: var(--p-5);
+    padding-top: var(--p-3);
+    padding-bottom: var(--p-3);
+    font-size: 12pt;
+}
 .swiper-slide {
     text-align: center;
     /* Center slide text vertically */
@@ -568,6 +593,35 @@ a {
         --p-3: 1.75em;
         --p-2: .50em;
         --p--2: .25em;
+    }
+    #experience-content h3{
+        font-size: 12pt !important;
+        margin-bottom: 10px;
+    }
+    #experience-content .icons__left {
+        font-size: 9pt !important;
+        padding-right: 8px;
+        margin-left: -20px;
+        padding-top: 8px;
+    }
+    .experience-content {
+        margin-left: 10px;
+    
+    }
+    .experience-content p {
+        font-size: 9pt;
+        text-align: justify;
+    }
+    .experience-content ol {
+        margin-left: 20px;
+    }
+    .experience-content ol {
+        padding-bottom: 25px;
+    }
+    .experience-content ol li {
+        padding: 1px;
+        text-align: justify;
+        font-size: 9pt;
     }
     .button {
         margin-top: 20px;
