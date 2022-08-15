@@ -262,24 +262,41 @@
                     <div class="subtitle__section">Work in Company</div>
                 </div>
                 <div id="experience-content">
-                    <div class="skills_header" style="display: flex; flex-direction: row;">
-                        <div class="icons__left">
-                            <i class="uil-check-circle"></i>
+                    <div>
+                        <div class="skills_header" style="display: flex; flex-direction: row;">
+                            <div class="icons__left">
+                                <i class="uil-check-circle"></i>
+                            </div>
+                            <h3>Internship at PT. Schneider Electric Manufacturing Batam (August 2021 - August 2022)</h3>
                         </div>
-                        <h3>Internship at PT. Schneider Electric Manufacturing Batam</h3>
+                        <div class="experience-content">
+                            <p>
+                                Internship at Departement Digital Transformation PT. Schneider Electric Manufacturing Batam from August 2021 to August 2022 as a Software Developer. 
+                                Development some web-based application using several technologies, such us PHP, C#(ASP.Net Core), Javascript, HTML, CSS, dan SQL Server.
+                            </p>
+                            <h4>Job Descriptions : </h4>
+                            <ol>
+                                <li>Build web-based application</li>
+                                <li>Develop and managing existing application such as Create, update, or delete some features from application</li>
+                                <li>Create Query Stored Procedured for calculate data, import data from csv to database, create report data and the others.</li>
+                                <li>Follow up user related handling project.</li>
+                                <li>Analyze data and optimize application performance</li>
+                            </ol>
+                        </div>
                     </div>
-                    <div class="experience-content">
-                        <p>
-                            Internship at Departement Digital Transformation PT. Schneider Electric Manufacturing Batam from August 2021 to August 2022 as a Software Developer. Development some web-based application using several technologies, such us PHP, C#(ASP.Net Core), Javascript, HTML, CSS, dan SQL Server.
-                        </p>
-                        <h4>Job Descriptions : </h4>
-                        <ol>
-                            <li>Build web-based application</li>
-                            <li>Develop existing application such as Create, update, or delete some features from application</li>
-                            <li>Create Query Stored Procedured for calculate data, import data from csv to database, create report data and the others.</li>
-                            <li>Follow up user related handling project.</li>
-                            <li>Analyze data and optimize application performance</li>
-                        </ol>
+                
+                    <div>
+                        <div class="skills_header" style="display: flex; flex-direction: row;">
+                            <div class="icons__left">
+                                <i class="uil-check-circle"></i>
+                            </div>
+                            <h3>Intern at SMK Negeri 1 Lumbanjulu (Jan 2016 - April 2016)</h3>
+                        </div>
+                        <div class="experience-content">
+                            <p>
+                                as IT Support at SMK Negeri 1 Lumbanjulu, responsible to handle network installation and computer installation, troubleshooting, and managing student data.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -357,7 +374,7 @@
                                 <textarea name="message" id="message" cols="30" rows="10"></textarea>
                             </div>
 
-                            <button type="submit" class="button">Send Message&nbsp;<i class="uil uil-message"></i></button>
+                            <button type="submit" class="button" style="cursor:not-allowed;" disabled>Send Message&nbsp;<i class="uil uil-message"></i></button>
                         </form>
                     </div>
                 </div>
@@ -417,6 +434,9 @@
                 navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 3000,
                 },
             });
         })
