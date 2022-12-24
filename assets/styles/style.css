@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root {
-    --first-color: #4e73df;
-    --second-color: #080705;
+    --first-color: 	#7289da;
+    /* --second-color: #080705; */
+    --second-color: #36393e;
     --first-font-color: #000000;
     --second-font-color: #FFFFFF;
     --bg-white: #FFF;
+
+    --grey-transparent-1: rgba(255, 255, 255, 0.1);
+    --grey-transparent-2: rgba(255, 255, 255, 0.2);
+    --grey-transparent-3: rgba(255, 255, 255, 0.3);
+
+    --transparent: rgba(255, 255, 255, 0.1);
 
     --p-5: 5em;
     --p-6: 6em;
@@ -33,7 +40,7 @@ body {
     width: 100%;
     height: auto;
     background-color: var(--second-color);
-    color: #080705;
+    color: var(--second-color);
     font-family: var(--font-body);
 }
 a {
@@ -64,7 +71,7 @@ a {
     width: 100vh;
     left: auto;
     margin: auto;
-    background-color: #000000;
+    background-color: var(--second-color);
     align-self: center;
 }
 .photos {
@@ -125,7 +132,7 @@ a {
     height: auto;
 }
 #left #name {
-    color: black;
+    color: var(--first-font-color);
     word-spacing: 5px;
 }
 #left #name b {
@@ -139,7 +146,7 @@ a {
     background-color: var(--first-color);
     max-width: 150px;
     padding: 10px 5px 10px 10px;
-    color: white;
+    color: var(--second-font-color);
     font-size: 10pt;
     text-align: center;
     border-radius: 8px;
@@ -148,7 +155,7 @@ a {
 .button i {
     padding: 0px 4px;
     margin-top: -2px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: var(--grey-transparent-3);
     border-radius: 5px;
     font-size: 12pt;
     float: right;
@@ -205,13 +212,13 @@ a {
 #right #about__me .download {
     margin-top: 25px;
     font-size: 9pt;
-    border-bottom: 2px solid #4e73df;
-    color: #4e73df;
+    border-bottom: 2px solid var(--first-color);
+    color: var(--first-color);
     width: 105px;
     padding-bottom: 5px;
 }
 #right #about__me .download a {
-    color: #4e73df;
+    color: var(--first-color);
 }
 #right #about__me .download .uil {
     font-size: 12pt;
@@ -282,7 +289,7 @@ a {
     font-size: 10pt;
 }
 #exp .experience {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--transparent);
     padding: 15px;
     border-radius: 10px;
 }
@@ -313,7 +320,7 @@ a {
 }
 .skills_header i {
     font-size: 1.75em;
-    color: #4e73df;
+    color: var(--first-color);
     padding-right: 15px;
 }
 .skills_percentase {
@@ -339,7 +346,7 @@ a {
     width: 80%;
     height: .25em;
     border-radius: 0.10em;
-    background-color: #4e73df;
+    background-color: var(--first-color);
 }
 .skills_percentase .skills_javascript {
     width: 70%;
@@ -351,43 +358,43 @@ a {
     width: 40%;
     height: .25em;
     border-radius: 0.10em;
-    background-color: #4e73df;
+    background-color: var(--first-color);
 }
 .skills_percentase .skills_react {
     width: 60%;
     height: .25em;
     border-radius: 0.10em;
-    background-color: #4e73df;
+    background-color: var(--first-color);
 }
 .skills_percentase .skills_codeigniter {
     width: 80%;
     height: .25em;
     border-radius: 0.10em;
-    background-color: #4e73df;
+    background-color: var(--first-color);
 }
 .skills_percentase .skills_laravel {
     width: 50%;
     height: .25em;
     border-radius: 0.10em;
-    background-color: #4e73df;
+    background-color: var(--first-color);
 }
 .skills_percentase .skills_html {
     width: 90%;
     height: .25em;
     border-radius: 0.10em;
-    background-color: #4e73df;
+    background-color: var(--first-color);
 }
 .skills_percentase .skills_css {
     width: 80%;
     height: .25em;
     border-radius: 0.10em;
-    background-color: #4e73df;
+    background-color: var(--first-color);
 }
 .skills_percentase .skills_photoshop {
     width: 70%;
     height: .25em;
     border-radius: 0.10em;
-    background-color: #4e73df;
+    background-color: var(--first-color);
 }
 .skills__items {
     margin-bottom: 30px;
@@ -397,6 +404,70 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.percentage__10{
+    width: 10%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+.percentage__20{
+    width: 20%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+
+.percentage__30{
+    width: 30%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+.percentage__40{
+    width: 40%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+.percentage__50{
+    width: 50%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+
+.percentage__60{
+    width: 60%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+.percentage__70{
+    width: 70%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+.percentage__80{
+    width: 80%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+.percentage__90{
+    width: 90%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+.percentage__100{
+    width: 100%;
+    height: .25em;
+    border-radius: 0.10em;
+    background-color: var(--first-color);
+}
+
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -442,7 +513,7 @@ a {
     width: 35%;
     height: auto;
     border-radius: 15px;
-    background-color: #080705;
+    background-color: var(--second-color);
 }
 .swiper-wrapper .my__project img {
     width: 100%;
@@ -511,7 +582,7 @@ a {
 .form_contact .input {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.2);;
+    background-color: var(--grey-transparent-2);
     padding: 1em;
     font-size: 10pt;
     border-radius: 10px;
@@ -522,7 +593,7 @@ a {
     width: 47%;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.2);;
+    background-color: var(--grey-transparent-2);
     padding: 1em;
     font-size: 10pt;
     border-radius: 10px;
@@ -541,8 +612,8 @@ a {
 #footer {
     width: 100%;
     min-height: 200px;
-    color: #FFFFFF;
-    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--second-font-color);
+    background-color: var(--grey-transparent-1);
     padding:var(--p-3) var(--p-5);
 }
 #footer #footer__content {
@@ -650,7 +721,7 @@ a {
         min-height: 100px;
         position: absolute;
         z-index: 1;
-        background-color: #080705;
+        background-color: var(--second-color);
     }
     #others #menu_others {
         display: grid;
@@ -668,7 +739,7 @@ a {
         flex-direction: column;
     }
     #others #menu_others li a:hover {
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: var(--grey-transparent-3);
     }
     #others #menu_others li .uil {
         font-size: 16px;
@@ -728,7 +799,7 @@ a {
         content: '' !important;
     }
     .slide__icon {
-        color: #4e73df;
+        color: var(--first-color);
         font-size: 24pt;
         display: block;
     }
