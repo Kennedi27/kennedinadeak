@@ -871,7 +871,7 @@ a {
 }
 
 
-@media screen and (min-width: 481px) and (max-width: 800px) {
+@media screen and (min-width: 560px) and (max-width: 800px) {
     :root {
         --p-5: 1em;
         --p-6: 1.2em;
